@@ -1,0 +1,10 @@
+this is a simple nodejs, expressjs balloons popping game 
+needs mongodb pre-installed 
+
+provides - user /login, /logout, /registration endpoints.
+/game endpoint is available only on login and is not accessible otherwise.
+
+on registration, makes entry in user table
+on every game session, makes entry in userscore table with user, score and datetime
+
+
